@@ -3,7 +3,7 @@ import datetime
 from decimal import Decimal, ROUND_HALF_UP
 
 class CuentaBancaria:
-    _contador_cuentas = 0  # Contador para generar números únicos
+    _contador_cuentas = 0 
 
     def __init__(self, titular, saldo_inicial=0, tipo_cuenta="AHORROS"):
         if not isinstance(titular, str) or len(titular.strip()) == 0:

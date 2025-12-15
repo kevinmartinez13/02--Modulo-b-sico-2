@@ -14,6 +14,6 @@ class Empleado(Persona):
         self.salario *= (1 + porcentaje / 100)
         return f"Nuevo salario de {self.nombre}: ${self.salario:,.2f}"
 
-# Ejemplo de uso
+
 empleado1 = Empleado("Luis", 30, 2000)
 print(empleado1.aumentar_salario(10)) 

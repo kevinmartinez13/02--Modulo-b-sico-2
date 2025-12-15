@@ -5,7 +5,7 @@ class Persona:
         self.email = email
 
 def debug_persona(persona):
-    """Función para inspeccionar un objeto Persona."""
+
     print(f"=== DEBUG DE {persona.nombre} ===")
     print(f"Tipo: {type(persona)}")
     print(f"ID en memoria: {id(persona)}")
@@ -14,5 +14,5 @@ def debug_persona(persona):
     print(f"Representación: {repr(persona)}")
 
 if __name__ == "__main__":
-    persona = Persona("Ana", 28, ana)
+    persona = Persona("Ana", 28,)
     debug_persona(persona)
